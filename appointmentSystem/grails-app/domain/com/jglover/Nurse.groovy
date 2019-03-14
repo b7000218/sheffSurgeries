@@ -1,7 +1,16 @@
 package com.jglover
 
 class Nurse {
+	String nurseName
+	String qualification
+	String nurseEmail
+	String nurseOffice
+	String nursePhone
 
     static constraints = {
+	nurseName nullable: false, blank: false
+	qualification nullable: false, blank: false
+	nurseEmail nullable: false, blank: false, email:true
+	nurseOffice nullable: false, blank: false
     }
 }
