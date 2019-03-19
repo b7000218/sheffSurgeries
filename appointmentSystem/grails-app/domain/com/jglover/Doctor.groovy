@@ -18,6 +18,6 @@ class Doctor {
 	password nullable: false, blank: false, password: true
 	doctorOffice nullable: false, blank: false
 	doctorPhone nullable: false, blank: false
-	bio nullable: false, blank: false, maxLength:5000, widget:'textarea'
+	bio nullable: false, blank: false, maxSize:5000, widget:'textarea'
     }
 }

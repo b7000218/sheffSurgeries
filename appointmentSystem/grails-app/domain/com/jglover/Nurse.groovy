@@ -12,5 +12,6 @@ class Nurse {
 	qualification nullable: false, blank: false
 	nurseEmail nullable: false, blank: false, email:true
 	nurseOffice nullable: false, blank: false
+	nursePhone nullable: false, blank: false
     }
 }
