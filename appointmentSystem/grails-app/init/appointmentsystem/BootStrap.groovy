@@ -3,7 +3,7 @@ package com.jglover
 class BootStrap {
 
     def init = { servletContext ->
-	def doctorJones=new Doctor(
+	/* def doctorJones=new Doctor(
 	fullName: 'Jonny Jones',
 	qualification: 'BTEC',
 	position: 'Dr',
@@ -111,13 +111,22 @@ class BootStrap {
 	appDate: new Date('12/03/2019'),
 	appTime: 15.00,
 	appDuration: 20,
-	roomNumber: 'A21').save()
+	roomNumber: 'A21',
+	patientName: joeglover).save()
 
 	def brokenleg=new Appointment(
 	appDate: new Date('10/03/2019'),
 	appTime: 12.00,
 	appDuration: 30,
-	roomNumber: 'B51').save()
+	roomNumber: 'B51',
+	patientName: brynbowler).save()
+
+patientName:joeglover
+patientName:brynbowler
+brokenleg.addToSurgeries(sharrowSurgery)
+brokenarm.addToSurgeries(cantorSurgery) */
+
+
     }
     def destroy = {
     }
