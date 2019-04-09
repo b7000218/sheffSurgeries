@@ -3,7 +3,7 @@ package com.jglover
 class BootStrap {
 
     def init = { servletContext ->
-	/* def doctorJones=new Doctor(
+	 def doctorJones=new Doctor(
 	fullName: 'Jonny Jones',
 	qualification: 'BTEC',
 	position: 'Dr',
@@ -124,7 +124,7 @@ class BootStrap {
 patientName:joeglover
 patientName:brynbowler
 brokenleg.addToSurgeries(sharrowSurgery)
-brokenarm.addToSurgeries(cantorSurgery) */
+brokenarm.addToSurgeries(cantorSurgery)
 
 
     }

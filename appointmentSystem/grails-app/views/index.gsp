@@ -11,7 +11,7 @@
 
 <div id="content" role="main">
     <section class="row colset-2-its">
-        <h1 style="color: #E25600;">Welcome to Sheffield Surgeries Home</h1>
+        <h1 style="color: #E25600;">WELCOME TO SHEFFIELD SURGERIES HOME</h1>
 	<div class="row">
 	
 	<asset:image src="health.png" width="200" height="100"/>
